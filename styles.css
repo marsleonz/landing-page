@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    height: 200px;
+}
+button{
+    color: white;
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+}
+.hero{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-self: center;
+    padding: 8px;
+}
+.logo{
+    font-weight: bold;
+}
+.header-body{
+    align-self: center;
+    display: flex;
+    width: 1000px;
+    padding: 48px;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.container{
+    width: 800px;
+    align-self: center;
+}
+.information{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+.information-title{
+    margin-bottom: 24px;
+}
+.information-container{
+    display: flex;
+    justify-content: space-around;
+}
+.information-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+.information-box{
+    width: 180px;
+    height: 180px;
+    border: 1px lightskyblue solid;
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex: 1;
+}
+.card{
+    height: 60%;
+    width: 1000px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+.card-text{
+    align-self: center;
+    color: white;
+    font-size: 16px;
+}
+.card-heading{
+    font-weight: bold;
+    font-size: 18px;
+}
+.button{
+    border: 1px solid white;
+    padding: 8px 16px;
+    align-self: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    padding: 16px;
+}
