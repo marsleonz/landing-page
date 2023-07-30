@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
     
 }
 body{
@@ -17,20 +18,21 @@ ul{
 a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 img{
     height: 200px;
 }
 button{
     color: white;
-    background-color: #3882f6;
+    background-color: #994C00;
     padding: 8px 16px;
     border-radius: 5px;
     border: none;
     font-weight: 900;
 }
 .hero{
-    background-color: #1f2937;
+    background-color: #CC6600;
     color: white;
     display: flex;
     flex-direction: column;
@@ -45,6 +47,7 @@ button{
 }
 .logo{
     font-weight: bold;
+    font-size: 24px;
 }
 .header-body{
     align-self: center;
@@ -53,22 +56,36 @@ button{
     padding: 48px;
     justify-content: space-between;
 }
+
 .heading{
     font-size: 48px;
     font-weight: extra-bold;
+    margin-bottom: 8px;
+}
+.header-body .text{
+    margin-bottom: 8px;
+    margin-right: 16px;
+}
+.header-image{
+    width: 300px;
+    height: 150px;
 }
 .container{
     width: 800px;
     align-self: center;
+    padding: 32px;
 }
 .information{
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    background-color: #FFCC99;
 }
 .information-title{
     margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
 }
 .information-container{
     display: flex;
@@ -80,21 +97,30 @@ button{
     max-width: 200px;
 }
 .information-box{
-    width: 180px;
-    height: 180px;
-    border: 1px lightskyblue solid;
+    width: 120px;
+    height: 120px;
+    border: 1px orange solid;
+    border-radius: 5px;
 }
 .quote{
-    background-color: #e5e7eb;
+    background-color: #FFE5CC;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     flex: 1;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-author{
+    text-align: end;
+    font-size: 18px;
 }
 .card-section{
     display: flex;
     justify-content: center;
-    align-self: center;
     flex: 1;
+    background-color: #FFCC99;
 }
 .card{
     height: 60%;
@@ -102,7 +128,7 @@ button{
     display: flex;
     align-self: center;
     justify-content: space-around;
-    background-color: #3882f6;
+    background-color: #CC6600;
     border-radius: 5px;
 }
 .card-text{
@@ -123,7 +149,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1f2937;
+    background: #CC6600;
     color: white;
     padding: 16px;
 }
